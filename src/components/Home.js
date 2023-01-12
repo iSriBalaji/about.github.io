@@ -2,6 +2,7 @@ import data from "../resources/data.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faAt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import React, { Component }  from 'react';
 
 const Home = () => {
     const details = data.personal_details;

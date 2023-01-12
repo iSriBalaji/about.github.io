@@ -1,4 +1,5 @@
 import data from "../resources/data";
+import React, { Component }  from 'react';
 
 const Achievements = () => {
     return (
