@@ -11,7 +11,7 @@ const Home = () => {
             <h1>About Me</h1>
             <div className="card personal">
 
-                <img className="profile-img" src={require("../resources/" + details.picture).default} alt="profile pic"></img>
+                <img className="profile-img" src={require("../resources/" + details.picture)} alt="profile pic"></img>
                 <h1 className="name">{details.name}</h1>
                 <div className="tag-container">
                     {details.highlights.map((highlight, idx) => <p className="tag" key={idx}>{highlight}</p>)}

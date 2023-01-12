@@ -10,7 +10,7 @@ const Education = () => {
                         {edu.type === "College" ? (
                             <>
                                 <div>
-                                    <img src={require("../resources/" + edu.logo).default} alt="institution logo"></img>
+                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
                                     <p className="title">{edu.course}</p>
                                     <p className="institution">{edu.institution}</p>
                                     <p className="dates">{`${edu.start_year} - ${edu.end_year}`}</p>
@@ -20,7 +20,7 @@ const Education = () => {
                         ) : (
                             <>
                                 <div>
-                                    <img src={require("../resources/" + edu.logo).default} alt="institution logo"></img>
+                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
                                     <p className="title">Grade {edu.grade}</p>
                                     <p className="institution">{edu.institution}</p>
                                     <p className="dates">{edu.year}</p>
