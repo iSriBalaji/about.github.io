@@ -1,7 +1,7 @@
 {
   "main.css": "/sri/static/css/main.e8f83d42.chunk.css",
-  "main.js": "/sri/static/js/main.8e9ff5fd.chunk.js",
-  "main.js.map": "/sri/static/js/main.8e9ff5fd.chunk.js.map",
+  "main.js": "/sri/static/js/main.d6baf81d.chunk.js",
+  "main.js.map": "/sri/static/js/main.d6baf81d.chunk.js.map",
   "static/js/1.7125b81a.chunk.js": "/sri/static/js/1.7125b81a.chunk.js",
   "static/js/1.7125b81a.chunk.js.map": "/sri/static/js/1.7125b81a.chunk.js.map",
   "runtime~main.js": "/sri/static/js/runtime~main.b20ff617.js",
@@ -32,6 +32,6 @@
   "static/media/profile-pic.jpg": "/sri/static/media/profile-pic.45a0c9ce.jpg",
   "static/css/main.e8f83d42.chunk.css.map": "/sri/static/css/main.e8f83d42.chunk.css.map",
   "index.html": "/sri/index.html",
-  "precache-manifest.baad0a06ee1e90e3d746bc7e31b7b21c.js": "/sri/precache-manifest.baad0a06ee1e90e3d746bc7e31b7b21c.js",
+  "precache-manifest.a2b3d6b175baf9a5096237faa7c73f43.js": "/sri/precache-manifest.a2b3d6b175baf9a5096237faa7c73f43.js",
   "service-worker.js": "/sri/service-worker.js"
 }

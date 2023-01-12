@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8e9ff5fd7d3fa7e192ff",
+    "revision": "d6baf81ddd177249f3a6",
     "url": "/sri/static/css/main.e8f83d42.chunk.css"
   },
   {
-    "revision": "8e9ff5fd7d3fa7e192ff",
-    "url": "/sri/static/js/main.8e9ff5fd.chunk.js"
+    "revision": "d6baf81ddd177249f3a6",
+    "url": "/sri/static/js/main.d6baf81d.chunk.js"
   },
   {
     "revision": "7125b81a5d8d42bd4c8d",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/sri/static/media/profile-pic.45a0c9ce.jpg"
   },
   {
-    "revision": "ed841c2c09cc2426faa7aa133accdea4",
+    "revision": "602f8d7ef2b31f942d56f2d9b1d9455d",
     "url": "/sri/index.html"
   }
 ];
