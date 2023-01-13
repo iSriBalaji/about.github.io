@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.e8f83d42.chunk.css",
-  "main.js": "/static/js/main.d6baf81d.chunk.js",
-  "main.js.map": "/static/js/main.d6baf81d.chunk.js.map",
-  "static/js/1.7125b81a.chunk.js": "/static/js/1.7125b81a.chunk.js",
-  "static/js/1.7125b81a.chunk.js.map": "/static/js/1.7125b81a.chunk.js.map",
+  "main.css": "/static/css/main.896f5614.chunk.css",
+  "main.js": "/static/js/main.66080e5f.chunk.js",
+  "main.js.map": "/static/js/main.66080e5f.chunk.js.map",
+  "static/js/1.122796a1.chunk.js": "/static/js/1.122796a1.chunk.js",
+  "static/js/1.122796a1.chunk.js.map": "/static/js/1.122796a1.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/java_nptel.png": "/static/media/java_nptel.2884180c.png",
@@ -30,8 +30,8 @@
   "static/media/trail.jpg": "/static/media/trail.238bc03b.jpg",
   "static/media/ub.svg": "/static/media/ub.14c53752.svg",
   "static/media/profile-pic.jpg": "/static/media/profile-pic.45a0c9ce.jpg",
-  "static/css/main.e8f83d42.chunk.css.map": "/static/css/main.e8f83d42.chunk.css.map",
+  "static/css/main.896f5614.chunk.css.map": "/static/css/main.896f5614.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3744c58dee4c6471fc9a146e489483b1.js": "/precache-manifest.3744c58dee4c6471fc9a146e489483b1.js",
+  "precache-manifest.22d066f5a8dffc606b9555b1775a34e9.js": "/precache-manifest.22d066f5a8dffc606b9555b1775a34e9.js",
   "service-worker.js": "/service-worker.js"
 }
