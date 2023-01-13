@@ -3,7 +3,7 @@
 ### First of all - **Thanks to Harrison Vijay** for accepting to use his code repo to rebuild this site.
 *Courtesy* - https://github.com/harrisonvijay
 
-### The site is hosted here isribalaji.in
+### The site is hosted here [isribalaji.in](https://isribalaji.in/)
 ### For reference:
 Deployed using ubuntu os
 used node version - v12.22.9
