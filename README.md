@@ -11,7 +11,7 @@ npm version - 8.5.1
 
 ### Installing the specific node(nvm) version
 1. brew install nvm
-2. **Edit the shell configuration file** - <code> ~/.zshrc </code>
+2. **Edit the shell configuration file** - <code> \~/.zshrc </code>
 <code> export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh </code>
 3. source ~/.zshrc  # or the respective file for your shell
