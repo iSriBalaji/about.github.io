@@ -11,18 +11,34 @@ on:
 jobs:
   create-cname:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
-      - name: Create CNAME file
-        run: echo "isribalaji.in" > CNAME
-        
-      - name: Commit and push changes
+
+      - name: Install Git
+        run: sudo apt-get update && sudo apt-get install git -y
+
+      - name: List files in gh-pages branch
         run: |
-          git config --local user.email "srisvit@gmail.com"
-          git config --local user.name "Sri Balaji M - Github Actions"
-          git add CNAME
-          git commit -m "Add CNAME for gh-pages"
-          git push origin HEAD:gh-pages
+          git fetch origin gh-pages:gh-pages
+          git checkout gh-pages
+          ls
+
+      - name: Check if CNAME already exists
+        id: check-cname
+        run: |
+          if [ -f "CNAME" ]; then
+            echo "::set-output name=file_exists::true"
+          else
+            echo "::set-output name=file_exists::false"
+          fi
+
+      - name: Create CNAME file if not exists
+        run: |
+          if [[ "${{ steps.check-cname.outputs.file_exists }}" == "false" ]]; then
+            echo "isribalaji.in" > CNAME
+            git add CNAME
+            git commit -m "Add CNAME to gh-pages"
+            git push origin gh-pages
+          fi
