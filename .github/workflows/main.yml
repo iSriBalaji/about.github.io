@@ -1,0 +1,28 @@
+name: Create CNAME in gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  create-cname:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Create CNAME file
+        run: echo "isribalaji.in" > CNAME
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "srisvit@gmail.com"
+          git config --local user.name "Sri Balaji M - Github Actions"
+          git add CNAME
+          git commit -m "Add CNAME for gh-pages"
+          git push origin HEAD:gh-pages
