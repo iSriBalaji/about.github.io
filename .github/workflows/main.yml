@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - gh-pages
+  deployment:
+    types:
+      - created
   pull_request:
     types:
       - closed
