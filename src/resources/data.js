@@ -272,7 +272,7 @@ const data = {
     skills: [
         {
             title: "Tools and Technologies",
-            list: ["Python", "Octave", "C", "Linux", "Git", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+            list: ["Python", "Octave", "C", "Linux", "Git", "Github Actions", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
         },
         {
             title: "Data Science & ML",
@@ -284,7 +284,7 @@ const data = {
         },
         {
             title: "Cloud Products",
-            list: ["Google Cloud Storage", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda"]
+            list: ["Google Cloud Storage", "Cloud SQL", "Secret Manager", "Cloud Spanner", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda"]
         }
     ],
     programming_achievements: [
