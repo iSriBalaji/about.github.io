@@ -272,7 +272,7 @@ const data = {
     skills: [
         {
             title: "Tools and Technologies",
-            list: ["Python", "Octave", "C", "Linux(Debian-based)", "Git", "Github Actions", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+            list: ["Python", "Octave", "C", "Linux(Debian based)", "Git", "Github Actions", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
         },
         {
             title: "Data Science & ML",
