@@ -10,20 +10,20 @@ const Education = () => {
                         {edu.type === "College" ? (
                             <>
                                 <div>
-                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
-                                    <p className="title">{edu.course}</p>
-                                    <p className="institution">{edu.institution}</p>
-                                    <p className="dates">{`${edu.start_year} - ${edu.end_year}`}</p>
+                                <center><img src={require("../resources/" + edu.logo)} alt="institution logo"></img></center>
+                                <center><p className="title">{edu.course}</p></center>
+                                <center><p className="institution">{edu.institution}</p></center>
+                                <center><p className="dates">{`${edu.start_year} - ${edu.end_year}`}</p></center>
                                 </div>
                                 <p className="highlight">{edu.cgpa}  {edu.cgpa_condition}</p>
                             </>
                         ) : (
                             <>
                                 <div>
-                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
-                                    <p className="title">Grade {edu.grade}</p>
-                                    <p className="institution">{edu.institution}</p>
-                                    <p className="dates">{edu.year}</p>
+                                <center><img src={require("../resources/" + edu.logo)} alt="institution logo"></img></center>
+                                <center><p className="title">Grade {edu.grade}</p></center>
+                                <center><p className="institution">{edu.institution}</p></center>
+                                <center><p className="dates">{edu.year}</p></center>
                                 </div>
                                 <p className="highlight">{edu.marks && edu.marks + " - "}{edu.percentage}</p>
                             </>

@@ -9,10 +9,10 @@ const Experience = () => {
                 {data.experience.map((exp, index) => (
                     <div className="card" key={index}>
                         <div>
-                            <img src={require("../resources/" + exp.logo)} alt="company logo"></img>
-                            <p className="title">{exp.title}</p>
-                            <p className="institution">{`${exp.company}, ${exp.location}`}</p>
-                            <p className="dates">{`${exp.start_date} - ${exp.end_date}`}</p>
+                        <center><img src={require("../resources/" + exp.logo)} alt="company logo"></img></center>
+                            <center><p className="title">{exp.title}</p></center>
+                            <center><p className="institution">{`${exp.company}, ${exp.location}`}</p></center>
+                            <center><p className="dates">{`${exp.start_date} - ${exp.end_date}`}</p></center>
                         </div>
                         {exp.description && <p className="subtext">{exp.description}</p>}
                     </div>

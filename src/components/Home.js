@@ -8,7 +8,7 @@ const Home = () => {
     const details = data.personal_details;
     return (
         <>
-            <h1>About Me</h1>
+            <h1 className="about-me">About Me</h1>
             <div className="card personal">
 
                 <img className="profile-img" src={require("../resources/" + details.picture)} alt="profile pic"></img>
