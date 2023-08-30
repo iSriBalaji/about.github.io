@@ -111,6 +111,11 @@ const data = {
     ],
     courses: [
         {
+            title: "Google Cloud Professional Database Engineer",
+            provider: "Google Cloud",
+            certificate_link: "https://google.accredible.com/34d44edc-b176-4896-9ddd-fd26ed017a1e"
+        },
+        {
             title: "Google Cloud Professional Data Engineer",
             provider: "Google Cloud",
             certificate_link: "https://www.credential.net/a9b6663f-8e2c-4d8f-93be-ae5609f82ba0"
