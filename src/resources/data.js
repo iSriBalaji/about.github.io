@@ -116,6 +116,11 @@ const data = {
             certificate_link: "https://google.accredible.com/34d44edc-b176-4896-9ddd-fd26ed017a1e"
         },
         {
+            title: "Apache Airflow Fundamentals",
+            provider: "Astronomer",
+            certificate_link: "https://www.credly.com/badges/3ec6c1e6-4ff6-46e3-be4a-1a788801e94d/public_url"
+        },
+        {
             title: "Google Cloud Professional Data Engineer",
             provider: "Google Cloud",
             certificate_link: "https://www.credential.net/a9b6663f-8e2c-4d8f-93be-ae5609f82ba0"
