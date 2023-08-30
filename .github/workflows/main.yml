@@ -3,7 +3,7 @@ name: Create CNAME in gh-pages
 on:
   push:
     branches:
-      - main
+      - gh-pages
   pull_request:
     types:
       - closed
