@@ -6,14 +6,14 @@ const data = {
         github_short: "iSriBalaji",
         linkedin: "https://www.linkedin.com/in/isribalaji",
         linkedin_short: "iSriBalaji",
-        email: "sribalaji0203@gmail.com",
-        location: "Buffalo, New York, US",
+        email: "contact[at]isribalaji[dot]in",   //"sribalaji0203[at]gmail[dot]com"
+        location: "Buffalo, NY, USA",
         highest_codechef_rating: "0",
         description: [
-            "‣ An enthusiastic engineer who loves to solve problems with data and software",
-            "‣ I am a bright student learning continuously stuffs on machine learning, data engineering and cloud",
-            "‣ I keep myself occupied with fascinating things such as startups, tech, certifications, research and more",
-            "‣ I love reading books, meeting new people, voleentering for startup events, practising mindfulness"
+            "» An enthusiastic engineer who loves to solve problems with data and software",
+            "» I am a bright student learning continuously stuffs on machine learning, data engineering and cloud",
+            "»  I keep myself occupied with fascinating things such as startups, tech, certifications, research and more",
+            "» I love reading books, meeting new people, voleentering for startup events, practising mindfulness"
         ],
         highlights: [
             "Data Engineering",
@@ -229,17 +229,20 @@ const data = {
     clubs: [
         {
             name: "How I Braved Anu Aunty and Co-Founded A Million Dollar Company",
-            role: "I read a few pages regularly in the school bus when I was in my 5th semester",
-            logo: "logos/hb.jpg"
+            role: "2015",
+            logo: "logos/hb.jpg",
+            description: [
+                "I read a few pages regularly in the school bus when I was in my 5th semester"
+            ]
         },
         {
             name: "Trailblazer: The Power of Business as the Greatest Platform for Change",
-            role: "October 2022",
+            role: "2022", //October
             logo: "logos/trail.jpg"
         },
         {
             name: "The Happiest Man on Earth: The Beautiful Life of an Auschwitz Survivor",
-            role: "October 2022",
+            role: "2022", //October
             logo: "logos/happy.jpg",
             description: [
                 "When I completed this book, I understood how lucky we are"
@@ -247,7 +250,7 @@ const data = {
         },
         {
             name: "Awareness",
-            role: "November 2022",
+            role: "2022", //November
             logo: "logos/awareness.jpg",
             description: [
                 "This book made me realized that I am a Spritual person too. I started meditating regularly again; practising mindfulness"
@@ -255,17 +258,17 @@ const data = {
         },
         {
             name: "The Subtle Art of Not Giving a F*ck",
-            role: "December 2022",
+            role: "2022", //December
             logo: "logos/subtle.jpg"
         },
         {
             name: "Never Split the Difference: Negotiating As If Your Life Depended On It",
-            role: "January 2023",
+            role: "2023", //January
             logo: "logos/nego.jpeg"
         },
         {
             name: "A Man Called Ove",
-            role: "December 2022",
+            role: "2022", //December
             logo: "logos/ove.jpg",
         }
     ],

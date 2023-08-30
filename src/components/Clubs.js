@@ -10,7 +10,7 @@ const Clubs = () => {
                     <div className="card" key={index}>
                         <img src={require("../resources/" + club.logo)} alt="club logo"></img>
                         <p className="title">{club.name}</p>
-                        <p className="highlight">{club.role}</p>
+                        <p className="dates">{club.role}</p>
                         {club.description && club.description.map((desc, idx) => <p className="subtext" key={idx}>{desc}</p>)}
                     </div>
                 ))}
