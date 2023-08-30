@@ -16,18 +16,28 @@ const data = {
             "‣ I love reading books, meeting new people, voleentering for startup events, practising mindfulness"
         ],
         highlights: [
-            "Machine Learning",
+            "Data Engineering",
             "Google Cloud",
+            "Python",
             "BigQuery",
+            "Cloud SQL",
             "Vertex AI",
             "Tensorflow",
-            "Neural Networks",
             "ETL",
             "Airflow",
             "Apache Spark"
         ]
     },
     experience: [
+        {
+            company: "Resultant",
+            location: "Indiana, US",
+            title: "Data/Software Engineer",
+            start_date: "April, 2023",
+            end_date: "Present",
+            description: "Building ETL pipelines on Google Cloud with CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System(CDPHE)",
+            logo: "logos/resultant.jpg"
+        },
         {
             company: "Fellowship.ai",
             location: "Hawaii, US(Remote)",
