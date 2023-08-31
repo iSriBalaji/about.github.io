@@ -17,6 +17,18 @@ html {
   align-items: center;
   text-align: center;
 }
+.inst {
+  position: relative;
+  top: 25px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 5%;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+}
+
 
 .about-me{
   color: #F8F6F4;
@@ -58,26 +70,29 @@ p {
 
 .institution {
   margin-bottom: 5px;
+  margin-top: 0%;
+  /* position: relative; */
   /* font-size: 1rem; */
   background-color: #333;
   color: white;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   text-decoration: none;
   padding: 10px 20px;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 10px;
   min-width: 120px;
 }
 
 .dates {
   font-size: 1rem;
-  margin-bottom: 23px;
+  margin-bottom: 5%;
+  margin-top: 0%;
   background-color: #ffcb30;
   border-radius: 10px;
   width: fit-content;
   padding: 5px 10px;
-  margin: 5px;
+  /* margin: 5px; */
   /* display: block; */
   display: flex;
   justify-content: center;

@@ -28,7 +28,7 @@ const Home = () => {
                         <FontAwesomeIcon className="icon" size="2x" icon={faLinkedin} />
                         <p>{details.linkedin_short}</p>
                     </a>
-                    <a className="link" href={`mailto: ${details.email}`}>
+                    <a className="link" href={`mailto: ${details.email}`}> {/*${details.email}*/}
                         <FontAwesomeIcon className="icon" size="2x" icon={faAt} />
                         <p>{details.email}</p>
                     </a>

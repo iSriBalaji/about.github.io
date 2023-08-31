@@ -68,7 +68,7 @@ const data = {
     ],
     education: [
         {
-            institution: "University at Buffalo, The State University of New York",
+            institution: "University at Buffalo, SUNY",
             logo: "logos/ub.svg",
             type: "College",
             course: "Data Sciences and Applications",
