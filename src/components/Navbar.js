@@ -46,7 +46,8 @@ const Navbar = () => {
                 <Link className={selected === "/projects" ? "selected" : ""} onClick={closeMobileNavbar} to="/projects">Projects</Link>
                 <Link className={selected === "/achievements" ? "selected" : ""} onClick={closeMobileNavbar} to="/achievements">Awards & Achievements</Link>
                 <Link className={selected === "/courses" ? "selected" : ""} onClick={closeMobileNavbar} to="/courses">Certification</Link>
-                <Link className={selected === "/clubs" ? "selected" : ""} onClick={closeMobileNavbar} to="/clubs">Books</Link>
+                <Link className={selected === "/books" ? "selected" : ""} onClick={closeMobileNavbar} to="/books">Books</Link>
+                {/* <Link className={selected === "/contact" ? "selected" : ""} onClick={closeMobileNavbar} to="/contact">Contact</Link> */}
             </div>
         </div>
     )

@@ -1,12 +1,12 @@
 import data from "../resources/data";
 import React, { Component }  from 'react';
 
-const Clubs = () => {
+const Books = () => {
     return (
         <>
             <h1 className="section-header">Books</h1>
             <div className="section">
-                {data.clubs.map((club, index) => (
+                {data.books.map((club, index) => (
                     <div className="card" key={index}>
                         <img src={require("../resources/" + club.logo)} alt="club logo"></img>
                         <p className="title">{club.name}</p>
@@ -19,4 +19,4 @@ const Clubs = () => {
     )
 }
 
-export default Clubs;
+export default Books;
