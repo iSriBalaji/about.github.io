@@ -9,29 +9,26 @@ const Education = () => {
                     <div className="card" key={index}>
                         {edu.type === "College" ? (
                             <>
-                                <div>
-                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
-                                    <p className="title">{edu.course}</p>
-                                    <p className="institution">{edu.institution}</p>
-                                    <p className="dates">{`${edu.start_year} - ${edu.end_year}`}</p>
-                                </div>
-                                <p className="highlight">{edu.cgpa}  {edu.cgpa_condition}</p>
+                                {/* <div> */}
+                                <center><img src={require("../resources/" + edu.logo)} alt="institution logo"></img></center>
+                                <center><p className="title">{edu.course}</p></center>
+                                <p className="subheader">Activities</p>
+                                {edu.awards.map((award, idx) => <p className="subtext" key={idx}>{award}</p>)}
+                                    <div className = "inst">
+                                        <p className="dates">{`${edu.start_year} - ${edu.end_year}`}</p>
+                                        <p className="institution">{edu.institution}</p>
+                                        <p className="highlight">{edu.cgpa}  {edu.cgpa_condition}</p>
+                                    </div>
                             </>
                         ) : (
                             <>
-                                <div>
-                                    <img src={require("../resources/" + edu.logo)} alt="institution logo"></img>
-                                    <p className="title">Grade {edu.grade}</p>
-                                    <p className="institution">{edu.institution}</p>
-                                    <p className="dates">{edu.year}</p>
-                                </div>
-                                <p className="highlight">{edu.marks && edu.marks + " - "}{edu.percentage}</p>
+
                             </>
                         )}
-                        <div>
+                        {/* <div>
                             <p className="subheader">Activities</p>
                             {edu.awards.map((award, idx) => <p className="subtext" key={idx}>{award}</p>)}
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>

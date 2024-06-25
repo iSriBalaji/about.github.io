@@ -6,10 +6,11 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
-import Clubs from "./components/Clubs";
+import Books from "./components/Books";
 import Courses from "./components/Courses";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,9 +23,10 @@ function App() {
           <Route path="/education" exact component={Education} />
           <Route path="/skills" exact component={Skills} />
           <Route path="/projects" exact component={Projects} />
-          <Route path="/clubs" exact component={Clubs} />
+          <Route path="/books" exact component={Books} />
           <Route path="/achievements" exact component={Achievements} />
           <Route path="/courses" exact component={Courses} />
+          {/* <Route path="/contact" exact component={Contact} /> */}
         </Switch>
       </HashRouter>
     </div>

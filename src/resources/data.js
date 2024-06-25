@@ -6,19 +6,20 @@ const data = {
         github_short: "iSriBalaji",
         linkedin: "https://www.linkedin.com/in/isribalaji",
         linkedin_short: "iSriBalaji",
-        email: "sribalaji0203@gmail.com",
-        location: "Buffalo, New York, US",
+        email: "contact[at]isribalaji[dot]in",   //"sribalaji0203[at]gmail[dot]com"
+        location: "Buffalo, NY, USA",
         highest_codechef_rating: "0",
         description: [
-            "‣ An enthusiastic engineer who loves to solve problems with data and software",
-            "‣ I am a bright student learning continuously stuffs on machine learning, data engineering and cloud",
-            "‣ I keep myself occupied with fascinating things such as startups, tech, certifications, research and more",
-            "‣ I love reading books, meeting new people, voleentering for startup events, practising mindfulness"
+            "» Passionate Engineer: Navigating the Intersection of Data, Software, and Problem Solving",
+            "» A dedicated student on a continuous journey of learning in the realms of data engineering, machine learning and cloud",
+            "» My world is constantly buzzing with engaging pursuits, from diving into startups events and creating personal frameworks to pursuing certifications, reading books, personal data projects, and more",
+            "» Beyond my technical pursuits, I find joy in the pages of books, connecting with new people, lending a hand at startup events, and embracing walking and mindfulness as a daily practice"
         ],
         highlights: [
-            "Data Engineering",
+            // "Data Engineering",
             "Google Cloud",
             "Python",
+            "Leadership",
             "BigQuery",
             "Cloud SQL",
             "Vertex AI",
@@ -35,7 +36,7 @@ const data = {
             title: "Data/Software Engineer",
             start_date: "April, 2023",
             end_date: "Present",
-            description: "Building ETL pipelines on Google Cloud with CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System(CDPHE)",
+            description: "Building ETL pipelines and data warehouse on Google Cloud with CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System(CDPHE)",
             logo: "logos/resultant.jpg"
         },
         {
@@ -44,7 +45,7 @@ const data = {
             title: "Data Science Intern",
             start_date: "June, 2022",
             end_date: "August, 2022",
-            description: "Modeled BERT based transformer model to answer plant based nutition questions by collecting data from over 2500+ videos, blogs and podcasts",
+            description: "Developed a BERT-based Transformer Model for addressing Plant-Based Nutrition Inquiries, Drawing Insights from an Extensive Collection of 2500+ Videos, Blogs, and Podcasts",
             logo: "logos/fellowship.png"
         },
         {
@@ -53,7 +54,7 @@ const data = {
             title: "Data Engineer",
             start_date: "August, 2020",
             end_date: "July, 2021",
-            description: "Built ETL data pipelines on Google Cloud with data fusion using GCS as data lake and BigQuery as data warehouse. Orchestrated pipelines with Apache Airflow(Cloud Composer)",
+            description: "Established Robust ETL Data Pipelines on Cloud Data Fusion, Leveraging GCS as the Data Lake and BigQuery as the Data Warehouse. The pipelines were instrumental in preparing data for comprehensive business analytics across Vodafone's operations in Hungary. The orchestration of these pipelines was seamlessly managed using Apache Airflow within Cloud Composer",
             logo: "logos/tcs.png"
         },
         {
@@ -62,13 +63,13 @@ const data = {
             title: "Data Analytics Virtual Internship",
             start_date: "June, 2020",
             end_date: "July, 2020",
-            description: "Worked on three modules given a dataset - Data Cleansing, Exploring, Visualization and Presentation   ",
+            description: "Worked on a analytics project, spanning Data Cleansing, Exploration, Visualization, and Presentation, driven by three distinct modules",
             logo: "logos/kpmg.png"
         }
     ],
     education: [
         {
-            institution: "University at Buffalo, The State University of New York",
+            institution: "University at Buffalo, SUNY",
             logo: "logos/ub.svg",
             type: "College",
             course: "Data Sciences and Applications",
@@ -104,12 +105,22 @@ const data = {
             start_year: "2014",
             end_year: "2016",
             awards: [
-                "Leanred the Practical and Theory of Physical, Mental, Social and Spiritual Health.",
-                "Excercised and Meditated daily for 40 mins before starting the classes during high school"
+                "Leanred comprehensive insights into the practical and theoretical aspects of physical, mental, social, and spiritual well-being.",
+                "During high school, diligently incorporated a daily routine comprising 40 minutes of exercise and meditation as an integral component of the curriculum"
             ]
         }
     ],
     courses: [
+        {
+            title: "Google Cloud Professional Database Engineer",
+            provider: "Google Cloud",
+            certificate_link: "https://google.accredible.com/34d44edc-b176-4896-9ddd-fd26ed017a1e"
+        },
+        {
+            title: "Apache Airflow Fundamentals",
+            provider: "Astronomer",
+            certificate_link: "https://www.credly.com/badges/3ec6c1e6-4ff6-46e3-be4a-1a788801e94d/public_url"
+        },
         {
             title: "Google Cloud Professional Data Engineer",
             provider: "Google Cloud",
@@ -216,65 +227,81 @@ const data = {
             check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
         },
     ],
-    clubs: [
+    contact: [
+                {
+                    label: "Calendly Link"
+                }
+    ],
+    books: [
         {
             name: "How I Braved Anu Aunty and Co-Founded A Million Dollar Company",
-            role: "I read a few pages regularly in the school bus when I was in my 5th semester",
-            logo: "logos/hb.jpg"
+            role: "2015",
+            logo: "logos/hb.jpg",
+            description: [
+                "During my 5th semester of undergrad, I made the most of my time on the school bus by dedicating it to regular reading of this book"
+            ]
         },
         {
             name: "Trailblazer: The Power of Business as the Greatest Platform for Change",
-            role: "October 2022",
+            role: "2022", //October
             logo: "logos/trail.jpg"
         },
         {
             name: "The Happiest Man on Earth: The Beautiful Life of an Auschwitz Survivor",
-            role: "October 2022",
+            role: "2022", //October
             logo: "logos/happy.jpg",
             description: [
-                "When I completed this book, I understood how lucky we are"
+                "After reading this book, I realized how strong people can be, and it made me more thankful for my own life"
             ]
         },
         {
             name: "Awareness",
-            role: "November 2022",
+            role: "2022", //November
             logo: "logos/awareness.jpg",
             description: [
-                "This book made me realized that I am a Spritual person too. I started meditating regularly again; practising mindfulness"
+                "This was a transformative experience. It made me reconsider certain things about religion and the meaning of spirituality. It also helped me realize many things personally"
             ]
         },
         {
             name: "The Subtle Art of Not Giving a F*ck",
-            role: "December 2022",
+            role: "2022", //December
             logo: "logos/subtle.jpg"
         },
         {
             name: "Never Split the Difference: Negotiating As If Your Life Depended On It",
-            role: "January 2023",
+            role: "2023", //January
             logo: "logos/nego.jpeg"
         },
         {
             name: "A Man Called Ove",
-            role: "December 2022",
+            role: "2022", //December,
+            description: ["A sweet story about a regular guy who might seem grumpy but is actually very kind and caring(it felt like me in some of the incidents of the story). It shows us how important it is to stay close to others. Even when we leave someone we love, we can find love again in different ways"],
             logo: "logos/ove.jpg",
+        },
+        {
+            name: "Head First Networking",
+            role: "2023", //July,
+            logo: "logos/hfnet.jpg",
         }
     ],
     skills: [
         {
             title: "Tools and Technologies",
-            list: ["Python", "Octave", "C", "Linux", "Git", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+            //list: ["Python", "Octave", "C", "Linux(Debian based)", "Git", "Github Actions", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+            list: ["Python", "Linux(Debian based)", "git", "Github Actions", "Tableau", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+
         },
         {
             title: "Data Science & ML",
-            list: ["Tensorflow", "keras", "scikit-learn", "pandas", "numpy", "CNN", "RNN", "NLP", "data preprocessing", "visualization"]
+            list: ["tensorflow", "keras", "scikit-learn", "pandas", "numpy", "CNN", "NLP", "Data Preprocessing", " Data Visualization"]
         },
         {
             title: "Data Engineering",
-            list: ["Apache Spark(Scripting, SQL)", "Airflow", "Shell Scripting", "AWS EMR", "Oracle SQL", "PL/SQL", "ETL"]
+            list: ["Apache Spark(Scripting, SQL)", "Airflow", "Shell Scripting", "AWS EMR", "Oracle SQL", "PL/SQL", "ETL", "SQL Server", "Postgres"]
         },
         {
             title: "Cloud Products",
-            list: ["Google Cloud Storage", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda"]
+            list: ["Google Cloud Storage", "Cloud SQL", "Secret Manager", "Cloud Spanner", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda"]
         }
     ],
     programming_achievements: [
@@ -285,22 +312,27 @@ const data = {
         },
         {
             title: "Winner - Code to Give Hackathon (Morgan Stanley)",
-            description: "Developed an SEO-optimized full-stack social engagement platform to connect stakeholders of an NGO (Atlanta Mission) with its clients. Appreciated with $500 prize",
+            description: "Designed and implemented a comprehensive, SEO-optimized full-stack social engagement platform, fostering meaningful connections between Atlanta Mission's stakeholders and clients, resulting in a commendation and a $500 prize",
             date: "2022"
         },
         {
             title: "Finalist - Smart India Hackathon 2020",
-            description: "Selected as top 5 among thousands of teams all around India",
+            description: "Advanced to the finals(top 5) of the prestigious Smart India Hackathon conducted by the government of India amoung thousands of teams",
             date: "2020"
         },
         {
             title: "Best Paper Award - International Conference on Research Advancements & Challenges in Engineering Sciences (ICRACE'20)",
-            description: "Received Best Paper Award for presenting a prototype for Social Security along with simulations.",
+            description: "Honored with the Best Paper Award for delivering a presentation featuring a prototype for Women's Social Security along with mobile app simulations",
             date: "2020"
         },
         {
-            title: "Winner of Design Your Destiny'2019 (Electrical Stream)Won Codechef DSA Certification Scholarship for excellent performance in their monthly challenge",
-            description: "Won the hardware hackathon among 5000 teams all over India by clearing multiple rounds of preseantaions and demos over the period of 3 months. Appreciated with $500 prize",
+            title: "Applied for Patent for a Medical device(CLINICON)| Patent No: 202041009208",
+            description: "CLINICON, a versatile medical assistant, is deployable either all over the street corners or tailored for specific regions. It simplifies healthcare access by converting voice inputs into text, providing symptom guidance in the patient's native language, and generating prescriptions and dosage instructions via an integrated printer.",
+            date: "2019"
+        },
+        {
+            title: "Winner of Design Your Destiny'2019 (Electrical Stream)",
+            description: "Won first place in a nationwide hardware hackathon, surpassing 5000 participating teams through a rigorous three-month process of presentations and demos, earning recognition and a $500 prize",
             date: "2019"
         },
         {
@@ -309,6 +341,7 @@ const data = {
         },
         {
             title: "Won in 5 Project fests and 7 Paper presentations across India",
+            description: "Notable events: Ozmenta 2K19, Kratos'19, Innovation Geeks'19, Upagraha'18, etc..",
             date: "2017-2020"
         }
     ]

@@ -8,7 +8,7 @@ const Home = () => {
     const details = data.personal_details;
     return (
         <>
-            <h1>About Me</h1>
+            <h1 className="about-me">About Me</h1>
             <div className="card personal">
 
                 <img className="profile-img" src={require("../resources/" + details.picture)} alt="profile pic"></img>
@@ -28,7 +28,7 @@ const Home = () => {
                         <FontAwesomeIcon className="icon" size="2x" icon={faLinkedin} />
                         <p>{details.linkedin_short}</p>
                     </a>
-                    <a className="link" href={`mailto: ${details.email}`}>
+                    <a className="link" href={`mailto: ${details.email}`}> {/*${details.email}*/}
                         <FontAwesomeIcon className="icon" size="2x" icon={faAt} />
                         <p>{details.email}</p>
                     </a>

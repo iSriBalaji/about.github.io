@@ -1,0 +1,53 @@
+name: Create CNAME in gh-pages
+
+on:
+  push:
+    branches:
+      - gh-pages
+    paths:
+      - 'package.json'
+  deployment:
+    branches:
+        - gh-pages
+    types:
+      - created
+  pull_request:
+    branches:
+      - gh-pages
+    types:
+      - closed
+
+jobs:
+  create-cname:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Git
+        run: sudo apt-get update && sudo apt-get install git -y
+
+      - name: List files in gh-pages branch
+        run: |
+          git fetch origin gh-pages:gh-pages
+          git checkout gh-pages
+          ls
+
+      - name: Check if CNAME already exists
+        id: check-cname
+        run: |
+          if [ -f "CNAME" ]; then
+            echo "::set-output name=file_exists::true"
+          else
+            echo "::set-output name=file_exists::false"
+          fi
+
+      - name: Create CNAME file if not exists
+        run: |
+          if [[ "${{ steps.check-cname.outputs.file_exists }}" == "false" ]]; then
+            echo "isribalaji.in" > CNAME
+            git add CNAME
+            git commit -m "Add CNAME to gh-pages"
+            git push origin gh-pages
+          fi

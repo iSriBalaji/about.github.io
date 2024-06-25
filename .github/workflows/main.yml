@@ -1,0 +1,20 @@
+name: Create CNAME file
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  create-cname:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create CNAME file
+        run: |
+          if [[ "${{ steps.check-cname.outputs.file_exists }}" == "false" ]]; then
+            echo "isribalaji.in" > CNAME
+            git add CNAME
+            git commit -m "Add CNAME to gh-pages"
+            git push origin gh-pages
+          fi
