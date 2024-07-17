@@ -26,6 +26,7 @@ source $(brew --prefix nvm)/nvm.sh </code>
 - git add -A
 - git commit -m "commit message"
 - git push -> push the site
+- use npm start to run the app locally
 - the above step will push the code to the main branch
 - npm run deploy -> it will push the code to ghpages
 - make sure to add the CNAME in the ghpage branch - isribalaji.in

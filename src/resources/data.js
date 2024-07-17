@@ -6,6 +6,7 @@ const data = {
         github_short: "iSriBalaji",
         linkedin: "https://www.linkedin.com/in/isribalaji",
         linkedin_short: "iSriBalaji",
+        resume: "https://drive.google.com/file/d/1nNmoaVZfxJEq8D2ZGLdPY3N6tQLLwNY3/view?usp=drive_link",
         email: "contact[at]isribalaji[dot]in",   //"sribalaji0203[at]gmail[dot]com"
         location: "Buffalo, NY, USA",
         highest_codechef_rating: "0",
@@ -13,30 +14,34 @@ const data = {
             "» Passionate Engineer: Navigating the Intersection of Data, Software, and Problem Solving",
             "» A dedicated student on a continuous journey of learning in the realms of data engineering, machine learning and cloud",
             "» My world is constantly buzzing with engaging pursuits, from diving into startups events and creating personal frameworks to pursuing certifications, reading books, personal data projects, and more",
-            "» Beyond my technical pursuits, I find joy in the pages of books, connecting with new people, lending a hand at startup events, and embracing walking and mindfulness as a daily practice"
+            "» Beyond my technical pursuits, I find joy in the pages of books, connecting with new people, lending a hand at startup events, and embracing walking and mindfulness as a daily practice",
+            "___________________________________",
+            "» FUN FACTs: I learned to skate in just two days, though I can't do tricks yet. I can solve a 3x3 Rubik's cube and I'm somewhat addicted to the chess.com app, having played over 4900 matches despite not being a master :) I use Duolingo daily to learn Spanish and know over 500 words feeling a little confident in beginner level reading. I also have an impressive streak of 750+ days on Duo.",
+            "» Recently my teammates/friends introduced me to soccer and I quickly became a fan although cricket has always been my fav sport. I'm also passionate about Formula One for its incredible engineering, strategy, team effort, and driver training. I even visited the F1 Exhibition in Toronto where I saw the cars IRL and tried their simulation",
         ],
         highlights: [
             // "Data Engineering",
             "Google Cloud",
             "Python",
             "Leadership",
+            "FastAPI",
             "BigQuery",
-            "Cloud SQL",
-            "Vertex AI",
-            "Tensorflow",
-            "ETL",
             "Airflow",
-            "Apache Spark"
+            "Cloud SQL",
+            "Data Modelling",
+            "Docker",
+            "ETL",
+            "Analytical Thinking"
         ]
     },
     experience: [
         {
             company: "Resultant",
             location: "Indiana, US",
-            title: "Data/Software Engineer",
+            title: "Data Engineer II",
             start_date: "April, 2023",
             end_date: "Present",
-            description: "Building ETL pipelines and data warehouse on Google Cloud with CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System(CDPHE)",
+            description: "Building a Data Vault 2.0 based data lakehouse and ETL pipelines on Google Cloud using CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System (CDPHE). Orchestrated data pipelines with Airflow, defining dependencies across hub, satellite, and link tables to ensure seamless data flow.",
             logo: "logos/resultant.jpg"
         },
         {
@@ -45,7 +50,7 @@ const data = {
             title: "Data Science Intern",
             start_date: "June, 2022",
             end_date: "August, 2022",
-            description: "Developed a BERT-based Transformer Model for addressing Plant-Based Nutrition Inquiries, Drawing Insights from an Extensive Collection of 2500+ Videos, Blogs, and Podcasts",
+            description: "Developed a BERT-based Transformer Model for addressing Plant-Based Nutrition Inquiries, Drawing Insights from an Extensive Collection of 2500+ Videos, Blogs, and Podcasts, Coordinated a team of 8 by organizing daily scrums, managing, and reporting to manager",
             logo: "logos/fellowship.png"
         },
         {
@@ -54,7 +59,7 @@ const data = {
             title: "Data Engineer",
             start_date: "August, 2020",
             end_date: "July, 2021",
-            description: "Established Robust ETL Data Pipelines on Cloud Data Fusion, Leveraging GCS as the Data Lake and BigQuery as the Data Warehouse. The pipelines were instrumental in preparing data for comprehensive business analytics across Vodafone's operations in Hungary. The orchestration of these pipelines was seamlessly managed using Apache Airflow within Cloud Composer",
+            description: "Established Robust ETL Data Pipelines on Cloud Data Fusion, Leveraging GCS as the Data Lake and BigQuery to build Enterprise Data Warehouse for Vodafone. The pipelines were instrumental in preparing data for comprehensive business analytics across Vodafone's operations in Hungary. The orchestration of these pipelines was seamlessly managed using Apache Airflow within Cloud Composer",
             logo: "logos/tcs.png"
         },
         {
@@ -78,7 +83,9 @@ const data = {
             end_year: "2023",
             awards: [
                 "Finalist of Buffalo Startup Weekend 2022",
-                "Volenteering for BSW'22 and Startup Coffee"
+                "Volunteered for BSW'22 and Startup Coffee",
+                "Won 1st place in Code-to-give Hackathon conducted by Morgan Stanley",
+                "Participated in UB Chess Club Sessions"
             ]
         },
         {
@@ -100,13 +107,15 @@ const data = {
             institution: "SRM University",
             logo: "logos/srm.png",
             type: "College",
-            course: "Yoga for Human Excellence",
+            course: "Diploma in Yoga for Human Excellence",
             short_course: "Diploma",
             start_year: "2014",
             end_year: "2016",
             awards: [
-                "Leanred comprehensive insights into the practical and theoretical aspects of physical, mental, social, and spiritual well-being.",
-                "During high school, diligently incorporated a daily routine comprising 40 minutes of exercise and meditation as an integral component of the curriculum"
+                "Learned comprehensive practical and theoretical aspects of physical, mental, social, and spiritual well-being.",
+                "Completed the diploma with first class distinction. Secured 3rd rank in the program that year.",
+                "During high school, we follow a daily routine with 40 minutes of exercise and meditation as part of the curriculum.",
+                "FUN FACT: I can legally be a yoga teacher/trainer"
             ]
         }
     ],
@@ -135,12 +144,18 @@ const data = {
         {
             title: "AWS Certified Cloud Practitioner",
             provider: "Amazon Web Services",
-            certificate_link: "https://www.credly.com/badges/e8ba50ba-d6cd-4244-b484-ad5cf0b6b650/public_url"
+            certificate_link: "https://www.credly.com/badges/e8ba50ba-d6cd-4244-b484-ad5cf0b6b650/public_url",
+            description: ["Check my AWS CCP notes on github"]
         },
         {
             title: "Tensorflow Developer Certification",
             provider: "Google",
             description: ["In Progress"]
+        },
+        {
+            title: "Docker for Beginner - Hands On - DevOps",
+            provider: "Udemy",
+            certificate_link: "https://drive.google.com/file/d/1H1T5jxyecUjHdUrjXwp8RJwT1sG-3sf6/view?usp=sharing"
         },
         {
             title: "Image Processing using Cloud",
@@ -226,6 +241,193 @@ const data = {
             github: "https://github.com/iSriBalaji/911-Analysis",
             check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
         },
+        {
+            title: "WDD - Washer Dryer Detector",
+            description: ["Building a hardware device along with software that can detect the status of washer and dryer using sensors, microprocessor",
+                        "Planning to open source the product after its done; Currently building the API for the device and tested each sensors separately",
+                        "Mentors for this Project: Genuinely grateful and thankful to Alex Kuksenko and Neil Kilpatrik for assisting in developing the project."
+                        ],
+            tools: [
+                "Python",
+                "FastAPI",
+                "Rasperry Pi",
+                "Sensors",
+                "Docker",
+                "Data Modelling",
+                "Architecture",
+                "Cloud Run"
+            ],
+             github: "https://github.com/iSriBalaji/wdd",
+            // check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
+        },
+        {
+            title: "Content Moderation using AWS Rekognition, S3 and Lambda",
+            description: ["Built a small web app where users can upload images that are loaded into an S3 Bucket.",
+                            "When a new image is loaded into the S3 bucket, it triggers a lambda function to fetch it and send it to AWS Rekognition.",
+                            "AWS Rekognition checks the image for any unsafe, offensive, or inappropriate content and provides the result.",
+                            "This technique can be used in larger applications to enhance user experience or can be built as a separate API endpoint."
+                        ],
+            tools: [
+                "HTML/CSS",
+                "AWS Rekognition",
+                "AWS S3",
+                "AWS Lambda"
+            ],
+            github: "https://github.com/iSriBalaji/aws",
+            // check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
+        },
+        {
+            title: "FastAPI Hands-on using User and Post Endpoints",
+            description: ["As part of the udemy course learnt fastapi hands on with an example"
+                        ],
+            tools: [
+                "Python",
+                "FastAPI"
+            ],
+            github: "https://github.com/iSriBalaji/fastapi/tree/main",
+            // check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
+        },
+        {
+            title: "Alert roommates on important dates and events using Email Client",
+            description: ["Reading a spreadsheet as source, process the file and send email to roommates with important bill dates, weather and events",
+                            "Emails can be configured to have HTML template",
+                            "Configured github actions to sync main branch to the EC2 instance - check workflows/main.yml",
+                            "Need more updation - Still many features are in idea stage"
+                        ],
+            tools: [
+                "Python",
+                "Zoho Email Client",
+                "AWS EC2",
+                "CRON"
+            ],
+            github: "https://github.com/iSriBalaji/fastapi/tree/main",
+            // check_out: "https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit"
+        },
+        {
+            title: "Clustering and Visualization of Social Media Content Posts using NLTK",
+            description: ["Cleaned the data to format and validate the columns; Created Bag of words and embedded it",
+                            "Clustered the data using K means clustering model and evluated it using silhouette score and Elbow method",
+                            "Created a Tableau Dashboard to visualize all the source data to know the trends and insights - Check Dashboard PDF on github"
+                        ],
+            tools: [
+                "Natural Language Processing",
+                "K Means Clustering",
+                "Tableau",
+                "Python",
+                "Data Analysis"
+            ],
+            github: "https://github.com/iSriBalaji/Twitter-and-Facebook-post-clustering",
+            check_out: "https://www.kaggle.com/code/isribalaji/intern-k-means/notebook"
+        },
+        {
+            title: "Flutter Dice App",
+            description: ["Built an android and iOS app that simulates the dual dice when both the dice has the same number it will send a notification",
+                            "Learned this as part of Angela Flutter Course; Built it from scratch and added my own features"
+                        ],
+            tools: [
+                "Flutter",
+                "Dart",
+            ],
+            github: "https://github.com/iSriBalaji/Square-Dice",
+            check_out: "APK link here"
+        },
+        {
+            title: "Know Earth - Flutter Quiz App",
+            description: ["An Android and iOS quiz app with questions about facts on Earth",
+                            "When users selects the answer it will create the correct and incorrect symbol at the bottom"
+                        ],
+            tools: [
+                "Flutter",
+                "Dart",
+            ],
+            github: "https://github.com/iSriBalaji/Flutter_Quiz",
+            check_out: "APK link here"
+        },
+        {
+            title: "Scraping and organizing Solar Installer Companies Data",
+            description: ["Automated the process of scraping company details who install solar panels all over the world",
+                            "Learned web scraping from Corey youtube channel"
+                        ],
+            tools: [
+                "Python",
+                "Web Scraping",
+            ],
+            github: "https://github.com/iSriBalaji/WebScrapting-BeautifulSoup",
+            // check_out: ""
+        },
+        {
+            title: "Scraping and organizing Solar Installer Companies Data",
+            description: ["Automated the process of scraping company details who install solar panels all over the world",
+                            "Learned web scraping from Corey youtube channel",
+                            "Also tried IP routing to change the IP address in case the site blocks bots"
+                        ],
+            tools: [
+                "Python",
+                "Web Scraping",
+            ],
+            github: "https://github.com/iSriBalaji/WebScrapting-BeautifulSoup",
+            // check_out: ""
+        },
+        {
+            title: "Registration Form integrated with Firebase hosted on Github Pages",
+            description: ["Created this web form for my friends workshop registration page",
+                            "It stores all the student data in Google Firebase real time database"
+                        ],
+            tools: [
+                "HTML",
+                "CSS",
+                "JS",
+                "Firebase"
+            ],
+            github: "https://github.com/iSriBalaji/Firebase_Form",
+            // check_out: ""
+        },
+        {
+            title: "Image Viewer Desktop App with Python Tkinter",
+            description: ["Built a desktop application with python Tkinter UI framework",
+                            "Opens the image in the folder and can be scrolled front and back"
+                        ],
+            tools: [
+                "Python",
+                "Tkinter",
+                "UI Design"
+            ],
+            github: "https://github.com/iSriBalaji/Python-Image_Viewer",
+            // check_out: ""
+        },
+        {
+            title: "CalX - Calculator Desktop App with Python Tkinter",
+            description: ["Built my own design of calculator app with Python Tkinter",
+                            "Designed the UI with Tkinter widgets and the app does basic arithmetic operations"
+                        ],
+            tools: [
+                "Python",
+                "Tkinter",
+                "UI Design"
+            ],
+            github: "https://github.com/iSriBalaji/Python-tkinter-Calculator",
+            // check_out: ""
+        },
+        {
+            title: "Dazzit - Static Web Page from Scratch",
+            description: ["Built a static web page with HTML and CSS when learning it"
+                        ],
+            tools: [
+                "HTML",
+                "CSS"
+            ],
+            github: "https://github.com/iSriBalaji/Dazzit",
+            // check_out: ""
+        },
+        {
+            title: "For other mini projects please check my github",
+            description: [
+                        ],
+            tools: [
+            ],
+            github: "https://github.com/iSriBalaji",
+            // check_out: ""
+        },
     ],
     contact: [
                 {
@@ -238,20 +440,23 @@ const data = {
             role: "2015",
             logo: "logos/hb.jpg",
             description: [
-                "During my 5th semester of undergrad, I made the most of my time on the school bus by dedicating it to regular reading of this book"
+                "My first book I completed - During my 5th semester of undergrad, I made the most of my time on the school bus reading/completing this book"
             ]
         },
         {
             name: "Trailblazer: The Power of Business as the Greatest Platform for Change",
             role: "2022", //October
-            logo: "logos/trail.jpg"
+            logo: "logos/trail.jpg",
+            description: [
+                "This book taught me how companies can succeed by caring for their employees, customers, and communities, not just by focusing on profits.", "Mr. Benioff specifically shares how adopting ethical practices, fostering innovation, giving back through philanthropy (1:1:1 principle), and strong leadership can drive both business growth and positive change in society."
+            ]
         },
         {
             name: "The Happiest Man on Earth: The Beautiful Life of an Auschwitz Survivor",
             role: "2022", //October
             logo: "logos/happy.jpg",
             description: [
-                "After reading this book, I realized how strong people can be, and it made me more thankful for my own life"
+                "After reading this book, I realized how incredibly strong and resilient people can be. It made me more thankful for my own life."
             ]
         },
         {
@@ -259,49 +464,58 @@ const data = {
             role: "2022", //November
             logo: "logos/awareness.jpg",
             description: [
-                "This was a transformative experience. It made me reconsider certain things about religion and the meaning of spirituality. It also helped me realize many things personally"
+                "This book was really a transformative experience. It made me reconsider certain things about religion and the meaning of spirituality. It also helped me realize many things personally"
             ]
         },
         {
             name: "The Subtle Art of Not Giving a F*ck",
             role: "2022", //December
-            logo: "logos/subtle.jpg"
-        },
-        {
-            name: "Never Split the Difference: Negotiating As If Your Life Depended On It",
-            role: "2023", //January
-            logo: "logos/nego.jpeg"
+            logo: "logos/subtle.jpg",
+            description: ["It thought the importance of accepting our limitations; choosing our values wisely; caring less about unimportant things", "This also made me feel like the majority of productivity books directly or indirectly means the same set of ideas."]
         },
         {
             name: "A Man Called Ove",
             role: "2022", //December,
-            description: ["A sweet story about a regular guy who might seem grumpy but is actually very kind and caring(it felt like me in some of the incidents of the story). It shows us how important it is to stay close to others. Even when we leave someone we love, we can find love again in different ways"],
+            description: ["A sweet story about a regular guy who might seem grumpy but is actually very kind and caring. It shows us how important it is to stay close to others. Even when we lose someone we love, we can find love again in a new and unexpected ways!", "I also watched the movie that was released based on this book just a few months after reading it."],
             logo: "logos/ove.jpg",
         },
         {
-            name: "Head First Networking",
-            role: "2023", //July,
-            logo: "logos/hfnet.jpg",
+            name: "Approaching (Almost) Any Machine Learning Problem",
+            role: "2022", //January
+            logo: "logos/AAAMLP.jpg",
+            description: ["Tech Book - Find my notes on the book on github"]
+        },
+        {
+            name: "Building a Scalable Data Warehouse with Data Vault 2.0",
+            role: "2024", //July,
+            logo: "logos/DV.jpg",
+            description: ["Tech Book - Read and took notes upto Chapter 6"]
+        },
+        {
+            name: "The Trusted Advisor",
+            role: "2024", //July,
+            logo: "logos/trusted_advisor.jpg",
+            description: ["Currently reading"]
         }
     ],
     skills: [
         {
             title: "Tools and Technologies",
             //list: ["Python", "Octave", "C", "Linux(Debian based)", "Git", "Github Actions", "Tableau", "Jenkins", "Jira", "Confluence", "SharePoint", "Machine Learning"]
-            list: ["Python", "Linux(Debian based)", "git", "Github Actions", "Tableau", "Jira", "Confluence", "SharePoint", "Machine Learning"]
+            list: ["Python", "Linux(Debian based)", "FastAPI", "Docker", "Rasperry Pi", "git", "Github Actions", "Tableau", "Jira", "Confluence", "SharePoint", "Flutter", "Django", "System Design(Learning)"]
 
         },
         {
-            title: "Data Science & ML",
-            list: ["tensorflow", "keras", "scikit-learn", "pandas", "numpy", "CNN", "NLP", "Data Preprocessing", " Data Visualization"]
+            title: "Data Engineering",
+            list: ["Airflow", "Shell Scripting", "AWS EMR", "Oracle SQL", "PL/SQL", "ETL", "SQL Server", "Postgres", "Apache Spark(Scripting, SQL)", "Data Architecture(Beginner level)"]
         },
         {
-            title: "Data Engineering",
-            list: ["Apache Spark(Scripting, SQL)", "Airflow", "Shell Scripting", "AWS EMR", "Oracle SQL", "PL/SQL", "ETL", "SQL Server", "Postgres"]
+            title: "Data Science & ML",
+            list: ["tensorflow", "keras", "scikit-learn", "pandas", "numpy", "CNN", "NLP", "Data Preprocessing", " Data Visualization", "ML Models(Supervised)"]
         },
         {
             title: "Cloud Products",
-            list: ["Google Cloud Storage", "Cloud SQL", "Secret Manager", "Cloud Spanner", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda"]
+            list: ["Google Cloud Storage", "Cloud Functions", "Cloud SQL", "Secret Manager", "Cloud Spanner", "Data Fusion", "BigQuery", "Composer(Airflow)", "Dataproc", "S3", "EC2", "Lambda", "Cloud Logs"]
         }
     ],
     programming_achievements: [
@@ -343,8 +557,14 @@ const data = {
             title: "Won in 5 Project fests and 7 Paper presentations across India",
             description: "Notable events: Ozmenta 2K19, Kratos'19, Innovation Geeks'19, Upagraha'18, etc..",
             date: "2017-2020"
+        },
+        {
+            title: "Volunteering at the Tools Library",
+            description: "Assisting Tools Library teams in tree planting and grass cleanup efforts in Buffalo, enables me to support community projects and contribute to enhancing our local environment. Fun Fact: the apple tree you see outside of 2626 Main Street, Buffalo was planted by me!",
+            date: "2024"
         }
-    ]
+    ],
+    
 }
 
 export default data;
