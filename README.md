@@ -32,9 +32,9 @@ source $(brew --prefix nvm)/nvm.sh </code>
 - make sure to add the CNAME in the ghpage branch - isribalaji.in
 
 ### Currently the version supported are
-node -v > v12.22.9
-nvm --version > 0.39.1
-npm -v > 8.5.1
+node -v > v12.22.9 <br/>
+nvm --version > 0.39.1 <br/>
+npm -v > 8.5.1 <br/>
 
 ##### video for reference - domain
 https://www.youtube.com/watch?v=6Rto09ElUuY&ab_channel=GalekxyMedia
